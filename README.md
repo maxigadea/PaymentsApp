@@ -2,8 +2,9 @@
 Aplicación de pagos con crypto: Nextjs, EthersJs, Metamask, QR, BitnovoAPI.
 
 
-//// - TO DO -  
+//// - TO DO -  (Por falta de tiempo no lo hice, no influia en el challenge)
 
+*Implementar Responsive
 *Modularizar Componentes y mover el css global a archivos en css Module o Style Components.
 *Implementar la lógica del timer
 
