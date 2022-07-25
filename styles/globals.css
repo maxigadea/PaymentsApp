@@ -1,16 +1,1258 @@
-html,
-body {
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;1,200&display=swap');
+
+/* Payments View - Crear PAGO CSS*/
+
+.containerPayments {
+  position: absolute;
+  left: 30.37%;
+  right: 30.26%;
+  top: 18.63%;
+  bottom: 65.89%;
+}
+
+.paymentsTitle {
+  font-family: Mulish, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+
+  color: #002859;
+}
+
+.p {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.clip-contents {
+  overflow: hidden;
 }
 
-* {
+.flex-col-hstart-vstart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-row-vstart-hstart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-col-hcenter-vcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row-vcenter-hcenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-hcenter {
+  justify-content: center;
+}
+
+.frame-122319 {
+  width: 609px;
+  height: 310px;
+}
+
+.frame-122318 {
+  margin-bottom: 50px;
   box-sizing: border-box;
+  width: 100%;
+}
+
+.frame-122317 {
+  margin-bottom: 32px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.frame-122315 {
+  padding: 0px 0px 0px 5.53px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.txt-517 {
+  font-size: 14px;
+  font-family: Mulish, sans-serif;
+  font-weight: 600;
+  line-height: 143%;
+  letter-spacing: 0.14px;
+  color: rgba(0, 40, 89, 1);
+  word-wrap: break-word;
+}
+
+.input {
+  padding: 21px 7px 21px 19.92px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid rgba(192, 204, 218, 1);
+  width: 100%;
+}
+
+.txt-949 {
+  font-size: 16px;
+  font-family: Mulish, sans-serif;
+  font-weight: 700;
+  line-height: 100%;
+  color: rgba(0, 40, 89, 1);
+  word-wrap: break-word;
+}
+
+.frame-122316 {
+  width: 100%;
+}
+
+.frame-122315 {
+  padding: 0px 0px 0px 5.53px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.txt-517 {
+  font-size: 14px;
+  font-family: Mulish, sans-serif;
+  font-weight: 600;
+  line-height: 143%;
+  letter-spacing: 0.14px;
+  color: rgba(0, 40, 89, 1);
+  word-wrap: break-word;
+}
+
+.input {
+  padding: 21px 7px 21px 19.92px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid rgba(192, 204, 218, 1);
+  width: 100%;
+}
+
+.txt-949 {
+  font-size: 16px;
+  font-family: Mulish, sans-serif;
+  font-weight: 700;
+  line-height: 100%;
+  color: rgba(0, 40, 89, 1);
+  word-wrap: break-word;
+}
+
+.rounded-primary {
+  padding: 15px 23px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: rgba(4, 101, 221, 1);
+  width: 100%;
+}
+
+.frame-12275 {
+  width: fit-content;
+  height: 100%;
+}
+
+.txt-620 {
+  font-size: 16px;
+  font-family: Mulish, sans-serif;
+  font-weight: 600;
+  line-height: 125%;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+/* Payments View - Crear PAGO Termina ACÁ*/
+
+/* Payments View - Confirmar Pago CSS*/
+
+.containerGeneral {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: #FFFFFF;
+}
+
+.containerOne {
+  position: absolute;
+  width: 700px;
+  height: 1130px;
+}
+
+.titleResumen {
+  position: absolute;
+  left: 12.15%;
+  right: 39.44%;
+  top: 16.58%;
+  bottom: 100%;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 00;
+  font-size: 20px;
+  line-height: 125%;
+  color: #002859;
+}
+
+.containerResumen {
+  position: absolute;
+  width: 608px;
+  height: 589px;
+  left: 80px;
+  top: 250px;
+  background: #F9FAFC;
+  border-radius: 8px;
+}
+
+.containerItems {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 21px;
+
+  position: absolute;
+  width: 608px;
+  height: 708px;
+
+}
+
+.containerItemOne {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 608px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.itemOne {
+  width: 512px;
+  height: 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.pImporte {
+  position: absolute;
+  left: 7.89%;
+  right: 80.1%;
+  top: 0%;
+  bottom: 54.55%;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 112%;
+  text-align: center;
+  color: #002859;
+}
+
+.pCurrency {
+  position: absolute;
+  width: 165px;
+  left: calc(50% - 165px/2 + 173.5px);
+  top: 0%;
+  bottom: 54.55%;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 112%;
+  text-align: right;
+  color: #002859;
+
+}
+
+.line {
+  width: 605px;
+  height: 0px;
+  border: 1px solid #C0CCDA;
+  display: flex;
+  margin-top: 80px;
+
+}
+
+.containerItemTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 42px;
+  width: 608px;
+  height: 202px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.itemTwo {
+  width: 512.48px;
+  height: 140px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.containerComercio {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin-left: 4px;
+  gap: 20px;
+  width: 513px;
+  height: 60px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.pComercioOne {
+  right: 85.1%;
+  top: 24%;
+  bottom: 90.55%;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 112%;
+  color: #002859;
+}
+
+.pComercioTwo {
+  position: absolute;
+  width: 253px;
+  left: 448px;
+  top: 0%;
+  bottom: 73.90%;
+  right: 200px;
+
+  /* Mulish/Headings/H6 */
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: flex-end;
+
+  /* Primary/Darker */
+
+  color: #002859;
+}
+
+.containerFecha {
+  width: 513px;
+  height: 150px;
+  order: 1;
+  flex-grow: 0;
+}
+
+.fechaOne {
+  position: absolute;
+  left: 9%;
+  right: 86.35%;
+
+  /* Mulish/Stylized/Lead */
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+
+  text-align: center;
+
+  /* Primary/Darker */
+
+  color: #002859;
+}
+
+.pfechaTwo {
+  position: absolute;
+  width: 253px;
+  left: 65%;
+
+  /* Mulish/Headings/H6 */
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+
+  /* Primary/Darker */
+
+  color: #002859;
+}
+
+.lineTwo {
+  width: 605px;
+  height: 0px;
+  border: 1px solid #C0CCDA;
+  display: flex;
+  margin-top: 80px;
+  margin-left: -48px;
+}
+
+.containerConcepto {
+  width: 512px;
+  height: 150px;
+  margin-left: 50px
+}
+
+.pConcepto {
+  width: 76px;
+  height: 16px;
+  /* Mulish/Stylized/Lead */
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #002859;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.pConceptoTwo {
+  position: absolute;
+  width: 253px;
+  left: 460px;
+  top: 20.38%;
+  bottom: 49.90%;
+
+  /* Mulish/Headings/H6 */
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+
+  /* Primary/Darker */
+
+  color: #002859;
+}
+
+.containerTwo {
+  position: absolute;
+  width: 700px;
+  height: 1130px;
+  left: 735px;
+}
+
+.containerHeaderSelect {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 18%;
+  bottom: 72.41%;
+}
+
+.pTitleSelect {
+  position: absolute;
+  left: 1.13%;
+  right: 76.67%;
+  top: 0%;
+  bottom: 63.73%;
+
+  /* Mulish/Body/14 */
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+
+  /* Text-Background/Dark/4 */
+
+  color: #8492A6;
+}
+
+.containerSelect {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 43.78%;
+  bottom: 72.41%;
+}
+
+.rectangleSelect {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 17px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  display: flex;
+  align-items: center;
+  color: #002859;
+  padding: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  width: 500px;
+  height: 60px;
+  position: absolute;
+  left: -3%;
+  right: 0%;
+  top: 8.78%;
+  bottom: 72.41%;
+
+  /* Text-Background/Light/1 */
+
+  background: #D3DCE6;
+  border-radius: 6px;
+}
+
+.alignSelectedText {
+  position: absolute;
+  left: 2.63%;
+  right: 1.81%;
+  top: 12.23%;
+  bottom: 76.49%;
+}
+
+option {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 28.84%;
+  bottom: 0%;
+  width: 90px;
+  height: 56px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+option:checked {
+  position: absolute;
+  left: 0.16%;
+  right: 0%;
+  top: 30.72%;
+  bottom: 52.35%;
+
+  /* Primary/Lighter */
+  color: #FFFF;
+  background: #035AC5;
+}
+
+/* Styles Payment View Finish  */
+
+/* Order view styles CSS */
+
+.containerResumenOrderView {
+  position: absolute;
+  width: 608px;
+  height: 589px;
+  left: 30px;
+  top: 250px;
+  background: #F9FAFC;
+  border-radius: 8px;
+}
+
+.containerTwoOrderView {
+  position: absolute;
+  width: 700px;
+  height: 1130px;
+  left: 600px;
+}
+
+.containerItemCurrencyOrderView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 21px;
+  width: 608px;
+  height: 81px;
+  left: 4px;
+  top: 366px;
+}
+
+.pCurrencySeleccionada {
+  position: absolute;
+  left: -10.62%;
+  right: 45.82%;
+  top: 15.64%;
+  bottom: 34.24%;
+
+  /* Mulish/Stylized/Lead */
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+
+  text-align: center;
+
+  /* Primary/Darker */
+
+  color: #002859;
+}
+
+.pCurrencySeleccionadaTwo {
+  position: absolute;
+  width: 165px;
+  left: 65%;
+  top: 15.70%;
+  bottom: 54.55%;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 112%;
+  text-align: right;
+  color: #002859;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.lineThree {
+  width: 605px;
+  height: 0px;
+  border: 1px solid #C0CCDA;
+  display: flex;
+  margin-top: 80px;
+  margin-left: -4px;
+}
+
+.comercioTwoOrderView {
+  position: absolute;
+  width: 253px;
+  left: 425px;
+  top: 0%;
+  bottom: 62.60%;
+  right: 200px;
+
+  /* Mulish/Headings/H6 */
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: flex-end;
+
+  /* Primary/Darker */
+
+  color: #002859;
+}
+
+.pConceptoTwoOrderView {
+  position: absolute;
+  width: 253px;
+  left: 460px;
+  top: 20.38%;
+  bottom: 38.50%;
+
+  /* Mulish/Headings/H6 */
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+
+  /* Primary/Darker */
+
+  color: #002859;
+}
+
+.containerItemsOrderView {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 21px;
+
+  position: absolute;
+  width: 608px;
+  height: 708px;
+  top: 20px;
+}
+
+.containerOrderPayment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+
+  position: absolute;
+  width: 80px;
+  height: 24px;
+  left: 300px;
+  top: 30px;
+}
+
+.containerItemOnePayment {
+  width: 24px;
+  height: 24px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.styleIconTimer {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: -40px;
+  top: 0px;
+}
+
+
+.pTimerPayment {
+  width: 32px;
+  height: 20px;
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  text-align: center;
+
+  /* Primary/Darker */
+
+  color: #002859;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.containerHeaderButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  position: absolute;
+  width: 590px;
+  height: 38px;
+  left: 10px;
+  top: 93px;
+}
+
+.containerSmartQR {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  gap: 4px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  /* identical to box height, or 20px */
+  background: #F9FAFC;
+  border: none;
+  width: 96px;
+  height: 35px;
+  font-family: 'Mulish';
+  border: none;
+
+  /* Primary/Lighter */
+  color: #8492A6;
+  background: #F9FAFC;
+  border-radius: 5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.containerSmartQR:hover {
+  background: #035AC5;
+  color: #FFF;
+  width: 100px;
+}
+
+.containerSpaceOne {
+  width: 1px;
+  height: 38px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  border: 1px solid #D3DCE6;
+}
+
+.containerWalletQR {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 4px;
+
+  width: 96px;
+  height: 35px;
+
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.pWalletQR {
+  width: 96px;
+  height: 35px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  /* identical to box height, or 20px */
+  background: #F9FAFC;
+  border: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 4px;
+
+  /* Text-Background/Dark/4 */
+
+  color: #8492A6;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.pWalletQR:hover {
+  background: #035AC5;
+  color: #FFF;
+  width: 90px;
+}
+
+.containerSpaceTwo {
+  width: 1px;
+  margin-left: 10px;
+  height: 38px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  border: 1px solid #D3DCE6;
+}
+
+.containerQR {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 228px;
+  top: 170px;
+}
+
+.alignQR {
+  width: 193px;
+  height: 193px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.containerDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+
+  position: absolute;
+  width: 416px;
+  height: 113px;
+  left: 95px;
+  top: 400px;
+}
+
+.containerDetailsOne {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 163px;
+  height: 25px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.containerDetailsTwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  word-wrap: break-word;
+  width: auto;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.containerDetailsThree {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  margin-top: -40px;
+  width: 415px;
+  height: 100px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.pDetailsOne {
+  width: 137px;
+  height: 25px;
+
+  /* Mulish/Headings/H4 */
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  /* Primary/Darker */
+
+  color: #002859;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.buttonDetailsOne {
+  width: 18px;
+  height: 18px;
+  margin-top: -10px;
+  border: none;
+  background: #F9FAFC;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.buttonDetailsTwo {
+  width: 18px;
+  height: 18px;
+  margin-top: 10px;
+  border: none;
+  background: #F9FAFC;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.spanText {
+  font-size: 16px;
+  font-weight: 900;
+  color: #002654;
+}
+
+.pDetailsTwo {
+  width: 390px;
+  height: 40px;
+
+  /* Mulish/Body/14 */
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  /* Primary/Darker */
+
+  color: #002859;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.containerButtonCopy {
+  width: 18px;
+  height: 18px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.containerInformationIcon {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.pDetailsThree {
+  width: 187px;
+  height: 20px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #002859;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.containerResumenConfirmPayment {
+  position: absolute;
+  width: 608px;
+  height: 789px;
+  left: 80px;
+  top: 250px;
+  background: #F9FAFC;
+  border-radius: 8px;
+}
+
+.containerFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  position: absolute;
+  width: 399px;
+  height: 26px;
+  left: 557px;
+  top: 927px;
+}
+
+.containerBitnovoOne {
+  width: 564px;
+  height: 36px;
+  margin-top: 330px;
+  margin-left: -60px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font: fallback;
+}
+
+.PoweredBy {
+  position: absolute;
+  width: 49px;
+  height: 8px;
+  left: 0px;
+  top: 200px;
+}
+
+.lineBitnovo {
+  width: 26px;
+  height: 0px;
+  margin-left: 150px;
+  margin-top: -13px;
+  /* Text-Background/Dark/5 */
+
+  border: 1px solid #C0CCDA;
+  transform: rotate(90deg);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.pBitnovoFooter {
+  width: 203px;
+  height: 18px;
+  margin-left: 180px;
+  margin-top: -10px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #C0CCDA;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.pfechaTwoOrderView {
+  position: absolute;
+  width: 253px;
+  left: 70%;
+
+  /* Mulish/Headings/H6 */
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+
+  /* Primary/Darker */
+
+  color: #002859;
+}
+
+.containerMetamaskLogo {
+  position: absolute;
+  width: 140px;
+  height: 20px;
+  left: 0px;
+  top: 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+  border-radius: 30px;
+}
+
+.MetamaskLogo {
+  position: absolute;
+  width: 137px;
+  height: 43px;
+  left: 992px;
+  top: 510px;
 }
